@@ -2,4 +2,4 @@
 
 This is where I put all my experiments
 
-small examples that convey topic understanding
+Small examples that convey topic understanding
