@@ -1,2 +1,2 @@
 # zettelkasten notes
-* from Niklas Luhmann - http://luhmann.surge.sh/
+from Niklas Luhmann - http://luhmann.surge.sh/
