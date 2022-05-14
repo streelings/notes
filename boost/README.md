@@ -1,6 +1,8 @@
 # 2022 Beginner Boost
 
-## Week one - https://github.com/rwxrob/boost/blob/2022/week0.md
+## Week 0 - https://github.com/rwxrob/boost/blob/2022/week0.md
+
+## Week 1 - https://github.com/rwxrob/boost/blob/2022/week1.md
 
 # Zettlekasten 
 
@@ -60,5 +62,6 @@ practice stopping and starting vm
 * pwd 
 * shutdown 
 
-* 
+## Week 2 - 
+
 
