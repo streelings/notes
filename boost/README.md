@@ -64,4 +64,48 @@ practice stopping and starting vm
 
 ## Week 2 - 
 
+new command
+* mv (move/rename)
 
+recommended book 
+
+* the linux command line by william shotts
+  * linuxcommand.org 
+
+Things we went over I guess (summary?)
+
+* Primary responsibilities of any mentor
+  1. Help you know what to learn
+  2. Help you know where to learn it (curate resources)
+  3. Help you when you get stuck
+
+* What is a "shell" and why do I care?
+* What is the difference between "terminal", "CLI", and "shell"?
+  * Terminal is all the things
+  * CLI is basically type a command, comes back with info requested (one line at a time sort of)
+  * Shell is interactive program that provides access to another system (with a kernal etc.)
+* What is a REPL? (Read, Evaluate, Print, Loop)
+  * Basically equivalent to a CLI
+* * What is UNIX and Linux
+  * Linux Kernal
+  * Linus Torvald
+* What is GNU, who invented Linux
+  * Linus Torvalds invented Linux
+  * GNU invented by Richard Stallman, basically invented open source software
+* Install and configure terminal software (MS Terminal, iTerm2)
+* Basic system update and package management and installation
+* Really simple and essential shell commands
+* Setup Secure Shell
+
+## Commands Used
+
+* sudo - do it as root (user)
+
+Related:
+* https://github.com/microsoft/terminal/releases (no app store needed)
+* https://youtu.be/crtZHNclndQ (cool retro terminal)
+* https://www.linuxcommand.org
+* http://replit.or
+
+watch
+* at&t archives linux operating system video
