@@ -1,6 +1,6 @@
 # 2022 Beginner Boost
 
-## Week one
+## Week one - https://github.com/rwxrob/boost/blob/2022/week0.md
 
 # Zettlekasten 
 
