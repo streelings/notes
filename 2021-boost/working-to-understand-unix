@@ -1,0 +1,40 @@
+# Working to Understand Unix
+
+* Unix is a family of operating systems, originally made by AT&T
+	* In the 1970s it was licensed to outside parties which resulted in Unix variants
+		* University of California, Berkeley (BSD)
+        * Microsoft (Xenix)
+        * Sun Microsystems (SunOS/Solaris)
+        * HP/HPE (HP-UX)
+        * IBM (AIX)
+    * There was considerable debate about which of the operating systems was best. Most famous (?) is between Berkeley's BSD and AT&T's System V. Programmers tended to prefer BSD and business types leaned towards System V.
+
+* Unix systems are characterized by a [modular design](https://en.wikipedia.org/wiki/Modular_design) that is sometimes called the "[Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)".
+    * Minimalist
+    * Modular software development
+        * Separating the functionality of a program into independant, interchangable modules, each of which contain stuff to execute only one aspect of the desired functionality
+            * Small programs that can be strung together through a command-line interpreter using pipes
+    * Favors composability as opposed to monolithic design
+    * Programs should do one thing and do it well
+    * Programs should work together
+    * Unified and inode-based filesystem
+        * Data structure that describes a file-system object (like  afile or directory). Each inode stored the attributes and disk block locations of the object's data 
+            * A directory is a list of inodes with their assigned names - includes an entry for itself, its parent, and each of its children
+    * Inter-process communication mechanism known as "pipes" server as the main means of communication
+        * IPC - mechanisms an OS provides to allow processes to manage shared data. Often cattegorized as clients and servers, where the client requests data and the server responds to client requests. A lot of apps are both clients and servers
+        * Pipelines are a set of processes chained together by their standard streams - each stdout of a program is passed directly as stdin to the next one
+            * Standard streams are interconnected i/o communication channels between a program and its environment when it begins execution
+            * Three I/O (input/output) connections are stdin, stdout, stderr
+    *Shell scripting and command language (Unix shell) is used to combine the tools to perform complex workflows
+        * A shell is a program which exposes an OS's services to a human user or other programs
+            * A shell is either a command-line interface (CLI) or a graphical user interface (GUI)
+    * Unix is the first portable OS, almost entirely writted in C, a high level programming language
+        
+        * Allows Unix to operate on numerouts platforms
+
+* Unix OS consists of many libraries and utilities along with the master control program the kernel
+    * The kernal is the core of the OS and has control over everything in the system
+    * Portion of the OS code that is always resident in memory
+    * Facilitates interactions between hardware and software components
+    * One of the first programs loaded on startup after the bootloader
+    * Handles the rest of the startup, memory, peripherals, I/O requests from software, translating them into data-processing instructions for the CPU
