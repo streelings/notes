@@ -1,0 +1,341 @@
+# **Beginner Boost - day 0 - 12/13/21 - Getting set up.**
+
+## Notes
+
+Pomodoro Method
+ytq = youtube query
+
+
+## Media to consume
+
+* Movies
+    * Genius of the Ancient world
+
+
+## Notes to self
+
+* Interact with people in discord/twitch chat
+   * oglinuk - VIP in chat - gave me usb advice for keepassxc
+   * kennithnichol - new person who @ me when i introduced myself in twitch chat
+		> definitely feeling the improvements by going through the boost videos. This community seems pretty great so far!
+   * ryanwilcox - knew about pass
+
+## Fun stuff
+
+People in chat in reference to rob using !bc (built in calculator)	
+> it's really powerful, unless you forget to semicolon
+>
+> fundamentals: semicolon
+
+---
+# **Beginner Boost - day 1 - 12/14/21 - Getting motivated.**
+
+## Notes
+Autodidact - someone in charge of their own learning
+
+Read about Creative Commons
+
+## Media to consume
+
+* Movies
+	* Bill and Ted's Excellent Adventure
+	* V for Vendetta
+	* Stargate
+	* Dead Poets Society
+	* [The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
+    * Contact
+
+* TV Shows
+	* Mr. Robot
+	* Schitt's Creek
+
+* Books
+	* Saving Capitalism - Robert Reich
+    * Pedagogy of the Oppressed - Paulo Freire
+    * Out of Our Minds: Learning to be Creative
+---
+# Beginner Boost - day 2 - 12/15/21 - Scientific Method
+
+## Notes
+
+Three types of truth - 
+* ontological truth - nature of being
+* epistomological truth - philosophy of knowledge (how we know what we know)
+* Methodological truth - the system of methods and principles applied to a field of study
+
+rwx - read write execute
+
+Zettelkasten (slips in a box) knowledge management system - Niklas Luhmann
+
+IRC/Slack/Discord are important
+
+Writing something down is the next best thing to teaching someone else about a subject
+
+Ideas stand on their own
+
+Meritocracy - From each according to his ability, to each according to his needs
+
+Don't tell people conclusions, tell them why you think microsoft sucks as opposed to just microsoft sucks
+
+[Markdown](https://commonmark.org/help/) is essential to capture your knowledge - 
+
+When criticizing something, attack the idea not the person (work on speaking like this)
+
+## Homework 
+Turn notes from previous days into markdown, read [zettelkasten](http://luhmann.surge.sh/) materials, learn [markdown](https://commonmark.org/help/)
+
+## Movies 
+Genius of the Modern World - Marx, Neitzsche, and Freud
+
+---
+
+# **Behinner Boost - day 3 - 12/16/21 - understanding linux approach**
+
+## Notes
+
+linux is an os which runs on a llinux kernal - software that runs at the core  and is in charge of coordinating all the hardware attached to the cpu
+
+More than one core exists because cpu can only run one calc at a time. programs need to be build in a multi-threaded environment so they can take advantage of multiple cores
+
+process - something that runs on pc
+
+bios - basic input output system
+
+Bios is a tiny OS allows you to boot another OS. First process that runs is init (process id PID of 1). Init starts a bunch of other processes
+
+Everything in Linux is a file
+
+## Homework
+
+Read on unix/linux (unix philosophy). How does Linux work? Linux foundation training? (prob don't need to get cert.)
+
+Read about Linus and Richard
+
+Research AIX / Solaris
+
+Research BSD
+
+Pipeline
+
+Kernels? - core of the OS thst communicates with computer hardware (the cpu)
+
+Knoppix?
+
+Red hat?
+
+System calls
+
+What is hacking?
+
+Distro? ( in reference to linux)
+
+Disk partition
+
+## Networking
+
+vmttmv - experienced programmer
+
+infrastructure engineer, cloud native, dev ops, SRE,
+
+---
+
+# **Beginner Boost - day 4 - 12/17/21 - Get on the Terminal**
+
+## Notes
+
+A terminal is an application with cells twice as high than wide to put text on the screen
+
+Don't need Git-Bash for beginner boost, but will use eventually (or maybe wsl2?)
+
+## Homework 
+
+Understand the difference between a terminal and a command line shell
+
+# **Beginner Boost - day 5 - 12/18/21 - Learn About Containers and Get Docker**
+
+## Notes
+
+Advances in kernals gave way to container movement
+
+kubernetes is the new os, containers are the new programs
+
+Containers hold different parts of the website written in different languages together so that they seem like one program to the end user
+
+You have windows, and you have wsl 2 which is running ubuntu, and you're running a docker container inside ubuntu
+
+Container - https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/
+	
+* Containers are a technology for packaging and running Windows and Linux applications across diverse environments on-premises and in the cloud.
+
+![container](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/container-diagram.svg)
+
+* While a container shares the host operating system's kernel, the container doesn't get unfettered access to it. Instead, the container gets an isolated–and in some cases virtualized–view of the system. **For example, a container can access a virtualized version of the file system and registry, but any changes affect only the container and are discarded when it stops.**
+
+* A container builds on top of the kernel, but the kernel doesn't provide all of the APIs and services an app needs to run–most of these are provided by system files (libraries) that run above the kernel in user mode. **Because a container is isolated from the host's user mode environment, the container needs its own copy of these user mode system files, which are packaged into something known as a base image**. The base image serves as the foundational layer upon which your container is built, **providing it with operating system services not provided by the kernel**.
+
+**Container images**
+* All containers are created from container images. **A container image is a bundle of files organized into a stack of layers that resides on your local machine or in a remote container registry**. The container image consists of the user mode operating system files needed to support your app, any runtimes or dependencies of your app, and any other miscellaneous configuration file your app needs to run properly.
+
+	* You can pull images from places that already have the containers layer images
+## Homework
+
+What is containerization vs virtualization
+
+Difference between container and virtual machine
+(look for images)
+
+* A container is an isolated, lightweight package for running an application on the host operating system. Containers build on top of the host operating system's kernel
+
+* In contrast to a container, a virtual machine (VMs) runs a complete operating system–including its own kernel–as shown in this diagram.
+
+![virtual machine](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/virtual-machine-diagram.svg)
+
+
+Docker tutorial
+
+Linuxcommand.org
+
+## Downloads
+
+Install wsl 2 - makes containers faster that are inside of it
+
+Install Ubuntu (a )
+
+Install Docker Desktop
+
+---
+
+# Beginner Boost - day 6 - 12/19/21 - Run Linux Inside a Container
+
+## Notes
+
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock rwxrob/workspace
+
+* sudo chmod 666 /var/run/docker.sock
+
+docker run -it --rm "name of container here"
+
+* docker pull is built into docker run
+
+* docker start is built into docker run
+
+docker rmi (remove image) sometimes docker rmi (container name here) -f (force)
+
+if you exit a container and want to pull up that specific container again,
+
+* docker ps -a (brings up a list of containers)
+
+* docker start 'name'
+
+* docker attach 'name'
+
+docker rm (remove)
+
+docker stop
+
+## Networking
+
+taniwha3 is container-man
+
+rob pronounces his name around 1:15:00 [here](https://www.youtube.com/watch?v=_jJWOgZwBBs&t=2071s)
+
+## Homework
+
+research docker rm
+
+research docker stop
+
+# Beginner Boost - day 7 - 12/21 - Start :Using Linux Terminal Command Line
+
+## Notes
+
+* learning how to type well is important as a means of outbound communication
+	* humans have great inbound communication (with senses) but poor outbound communication (speech, etc)
+
+* every command line you enter is a line of shell code
+
+* scripting is bunching up tiny programs
+
+* use bash for interactive shell
+	* zshell is an alternative to bash but we're using bash for beginner boost
+	* bash has tab completion
+
+* scripting in posix shell is good because it's very portable
+
+* root@ubuntu: root here is user, ubuntu is hostname
+	* you can change hostname by using -h
+		* `docker run -it --rm -h lala ubuntu`
+			* root@lala
+	* `adduser you` anything in place of you
+		* `su - you` to change user after you make one
+
+* in rob's workspace the $ is a prompt, changes based on container
+	* \# usually means you're root
+
+* you@ubuntu:~$ the tilde means you are in your home directory
+
+* robs prompt looks like rwxrob@live:boost(main)$
+	* rwxrob is the username
+	* live is the host name
+	* boost is the current directory name
+	* (main) is the git repository branch
+		* when you're doing development you don't want to be doing work in the (main) branch
+			* type `branches` to see list of branches
+			* type `switch` to go between branches
+		* might be smart to create code for (main) to show up in red so you have a visual showing not to work in it
+
+
+
+
+## Commands useful for beginners
+
+### Remember, a Terminal is Just a Teletype Emulator
+* `Ctrl-c` to Send Interrupt Signal (Not Copy)
+* `Ctrl-[` to Send Exact Same as Esc Key
+* `Ctrl-s/Ctrl-q` to Buffer and Suspend(s)/Unsuspend(q)
+	* "Help! My Terminal is Frozen!"
+* `Ctrl-z` to Background Current Process (Not Quit)
+* `Ctrl-d` to Send EOF (End of File)
+	* don't use too often
+	* if you were running a container and ran python and then wanted to exit python to go back to the container
+		* rob runs kalilinux, installed python in it since it doesn't come by default, typed `python` to run it and then uses `ctrl-d` to exit the python portion and return to kalilinux. In this case `ctrl-c` wouldn't work
+		* exiting `bc` also works this way
+* `Ctrl-v`, `Ctrl-x` Do Nothing (From Shell)
+* Silencing the Terminal Bell
+
+### Learn Useful and Essential Beginning User Commands
+* Use `reset` to Fix Bork Terminal
+* Use `clear` to Clear Screen (and Alternatives)
+* Use `watch` to Repeat Things and See Output
+* Use `man`/`help`/`info` Commands to Get Help
+* Use `less`/`more` for Paging Output
+* Use `ls` Command to List Files and Directories
+* Use `type` to See What Type of Thing It Is
+* Use `which` to See Where Command Lives
+* Use `pwd` Command to Show Working Directory
+* Use `cd` Command to Change Directories
+	* Use `cd foo` to Change Into foo Child Directory
+	* Use `cd ..` to Change Into Parent Directory
+	* Use `cd -` to Toggle Change to Last Directory
+	* Use `cd ~` (or Just cd) to Change to Home Directory
+	* Don't Fall for Silly cd Replacements (Use CDPATH)
+* Use `cal` to View Calendar
+* Use `date` to View Dates and Times
+	* Use `date -u` +%Y%m%d%H%M%S to Get ISO Second
+		* use `isosec`
+	* Use `date -d` 'last week' to Exact Time Last Week
+* Use `bc` for Floating Point Precision Math Calculations
+	* Don't Forget To Set Scale (`scale=2`)
+	* Use Semicolons for Same Line
+* Use `top` to See Running Processes
+	* Often Replaced with `htop`
+
+
+## Homework 
+
+* The Linux Command Line pdf - rob talks about sections of the book around 08:20 in [here](https://www.youtube.com/watch?v=EBtWx5m7pds&list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW&index=8)
+
+* bash style guidelines by google
+
+* `man gittutorial` maybe read a bit
+
