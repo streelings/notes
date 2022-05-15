@@ -1,0 +1,106 @@
+Beginner Boost - day 0 - 12/13/21
+getting set up
+
+Genius Of The Ancient World
+pomodoro method
+interact with people in the discord and in chat
+	users
+		oglinuk - VIP in chat - gave me usb advice for keepassxc
+		kennithnichol - new person who @ me when i introduced myself in twitch chat
+			"definitely feeling the improvements by going through the boost videos. This community seems pretty great so far!"
+				ask them about progress
+		ryanwilcox - knew about pass
+"it's really powerful, unless you forget to semicolon" (reference to bc, built in calculator)
+	then a chatter says "fundamentals: semicolon"
+like that rob left the breaks in the youtube video
+
+ytq = youtube query
+
+Beginner Boost - day 1 - 12/14/21
+getting motivated
+
+saving capitalism - robert reich
+bill and teds excellent adventure - deep or dumb
+
+autodidact - someone in charge of their own learning
+creative commons
+
+books
+sir ken robinson - out of our minds: learning to be creative
+paulo freire - pedagogy of the oppressed
+
+movies
+the internet's own boy (documentary) - https://www.youtube.com/watch?v=9vz06QO3UkQ
+v for vendetta
+dead poets society
+contact
+mr robot
+schitts creek
+stargate
+
+Beginner  Boost - day 2 - 12/15/21
+scientific method
+
+the three types of truth
+ontological truth - nature of being
+epistomological truth - philosophy of knowledge (how we know what we know)
+methodological truth - the system of methods and principles applied to a field of study
+
+read write execute (rwx)
+
+two types of reading - scanning, comprehension
+
+zettelkasten (slips in a box) knowledge management system
+
+IRC/Slack/Discord are important
+
+writing something down is the next best thing to teaching someone else about a subject
+
+ideas stand on their own
+
+genius of the modern world - marx nietzsche and freud
+
+meritocracy - from each according to his ability, to each according to his needs
+
+Don't tell people conclusions - tell them why you think microsoft sucks as opposed to microsoft sucks
+
+Markdown is essential to capturing your knowledge
+	
+	*italics*
+	**bold**
+	***bold italics***
+	```
+	code
+	```
+	use \ in front of special symbols if you want them to be implemented as is
+	# (#-######) headings
+	[This is an example of a reference link][reference]
+	[reference]: <https://thisisanexamplewebsite> 
+
+	using <> around a website on its own will show the url in full
+	
+	you can also do a [link](https://examplesite.com) to a website that will only hyperlink [these words]
+	
+	images need a !. So, ![picture , this is the alt text](/assets/img/picture.jpg)
+	
+	image links [![alt text](/assets/img/picture.jpg)(https://examplesite.com)
+	
+	* with a space after makes a list, one item per line
+	1. with a space after for numbered lists 
+		1. this
+		1. makes
+		1. this
+
+		1. this
+		2. makes
+		3. this
+		
+	---- makes a horizontal break/seperator line across the page
+	
+	hard return starts a new line in a paragraph. use two spaces after the last word before you want a new line. You can also use a backslash
+		Roses are red  
+		Violets are blue
+	
+homework - learn markdown, read zettelkasten materials
+
+not attacking one person, attacking the idea (speaking this way might be a thing to pursue)
